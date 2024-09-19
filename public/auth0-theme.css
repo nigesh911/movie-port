@@ -1,0 +1,41 @@
+:root {
+  --background-color: #0f172a;
+  --text-color: #e2e8f0;
+  --primary-color: #3b82f6;
+  --secondary-color: #64748b;
+  --accent-color: #f59e0b;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}
+
+.auth0-lock.auth0-lock .auth0-lock-header {
+  color: var(--text-color);
+}
+
+.auth0-lock.auth0-lock .auth0-lock-form-container {
+  background-color: rgba(30, 41, 59, 0.9);
+}
+
+.auth0-lock.auth0-lock .auth0-lock-input {
+  border-color: var(--secondary-color);
+}
+
+.auth0-lock.auth0-lock .auth0-lock-submit {
+  background-color: var(--primary-color) !important;
+}
+
+.auth0-lock.auth0-lock .auth0-lock-submit:hover {
+  background-color: var(--accent-color) !important;
+}
+
+.auth0-lock.auth0-lock .auth0-lock-alternative-link {
+  color: var(--accent-color);
+}
+
+.auth0-lock.auth0-lock .auth0-lock-badge-bottom {
+  display: none;
+}
